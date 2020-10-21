@@ -5,7 +5,8 @@ export const typeDefs = `
 
   type Query {
     hello: String 
-    greet: Int
+    sum: Int
+    greet(name: String!): String
   }
 
 `
