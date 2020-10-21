@@ -10,6 +10,7 @@ export const resolvers = {
   Mutation: {
     createCar: (root, args) => {
       data.push(args.input)
+      return input
     }
   }
 }
