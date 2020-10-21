@@ -7,6 +7,23 @@ export const typeDefs = `
     hello: String 
     sum: Int
     greet(name: String!): String
+    cars: [Car]
+  }
+
+  type Car {
+    color: String
+    type: String
+    capacity: Int
+  }
+
+  type Mutation {
+    createCar(input: CarInput): Car
+  }
+
+  input CarInput {
+    color: String
+    type: String
+    capacity: Int
   }
 
 `
