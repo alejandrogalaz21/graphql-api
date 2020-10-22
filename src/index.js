@@ -1,7 +1,9 @@
 import express from 'express'
+import { connection } from './db/connnection'
 import { graphqlHTTP } from 'express-graphql'
 import schema from './schema'
 
+connection()
 const app = express()
 
 app.use(
