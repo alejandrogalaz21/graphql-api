@@ -21,10 +21,7 @@
   },
   "homepage": "https://github.com/alejandrogalaz21/graphql-api#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "express-graphql": "^0.11.0",
-    "graphql": "^15.3.0",
-    "graphql-tools": "^6.2.4",
+    "apollo-server": "^2.18.2",
     "mongoose": "^5.10.9",
     "nodemon": "^2.0.6"
   },
